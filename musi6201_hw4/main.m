@@ -28,7 +28,7 @@ title('Distance Matrix (MFCCs)');
 %%
 % Checkboard Kernel Audio Novelty Function
 % play around with L = 2, 8, 16
-L = 16;
+L = 8;
 
 nvt_pc = computeSdmNovelty(pc_SDM, L);
 nvt_mfcc = computeSdmNovelty(mfcc_SDM, L);
